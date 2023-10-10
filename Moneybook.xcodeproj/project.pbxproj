@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6CE5F62A053CAF00E4FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE5F52A053CAF00E4FBA6 /* AppDelegate.swift */; };
+		1A6CE5F82A053CAF00E4FBA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE5F72A053CAF00E4FBA6 /* SceneDelegate.swift */; };
+		1A6CE5FD2A053CAF00E4FBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6CE5FB2A053CAF00E4FBA6 /* Main.storyboard */; };
+		1A6CE5FF2A053CB000E4FBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6CE5FE2A053CB000E4FBA6 /* Assets.xcassets */; };
+		1A6CE6022A053CB000E4FBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6CE6002A053CB000E4FBA6 /* LaunchScreen.storyboard */; };
+		1A6CE62E2A053CDC00E4FBA6 /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE60B2A053CDC00E4FBA6 /* Autolayout.swift */; };
+		1A6CE62F2A053CDC00E4FBA6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE60C2A053CDC00E4FBA6 /* UIView.swift */; };
+		1A6CE6302A053CDC00E4FBA6 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE60D2A053CDC00E4FBA6 /* index.swift */; };
+		1A6CE6312A053CDC00E4FBA6 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE60E2A053CDC00E4FBA6 /* UIStackView.swift */; };
+		1A6CE6322A053CDC00E4FBA6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE60F2A053CDC00E4FBA6 /* UIColor.swift */; };
+		1A6CE6332A053CDC00E4FBA6 /* UIVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6102A053CDC00E4FBA6 /* UIVisualEffectView.swift */; };
+		1A6CE6342A053CDC00E4FBA6 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6112A053CDC00E4FBA6 /* CGSize.swift */; };
+		1A6CE6352A053CDC00E4FBA6 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6122A053CDC00E4FBA6 /* UICollectionView.swift */; };
+		1A6CE6362A053CDC00E4FBA6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6132A053CDC00E4FBA6 /* String.swift */; };
+		1A6CE6372A053CDC00E4FBA6 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6142A053CDC00E4FBA6 /* CGPoint.swift */; };
+		1A6CE6382A053CDC00E4FBA6 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6152A053CDC00E4FBA6 /* UIButton.swift */; };
+		1A6CE6392A053CDC00E4FBA6 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6162A053CDC00E4FBA6 /* UIImage.swift */; };
+		1A6CE63A2A053CDC00E4FBA6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6172A053CDC00E4FBA6 /* UIImageView.swift */; };
+		1A6CE63B2A053CDC00E4FBA6 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6182A053CDC00E4FBA6 /* UIFont.swift */; };
+		1A6CE63C2A053CDC00E4FBA6 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6192A053CDC00E4FBA6 /* CGRect.swift */; };
+		1A6CE63D2A053CDC00E4FBA6 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE61A2A053CDC00E4FBA6 /* UILabel.swift */; };
+		1A6CE63E2A053CDC00E4FBA6 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE61B2A053CDC00E4FBA6 /* CAGradientLayer.swift */; };
+		1A6CE63F2A053CDC00E4FBA6 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE61C2A053CDC00E4FBA6 /* Attribute.swift */; };
+		1A6CE6402A053CDD00E4FBA6 /* homeDayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE61F2A053CDC00E4FBA6 /* homeDayRowView.swift */; };
+		1A6CE6412A053CDD00E4FBA6 /* homePieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6202A053CDC00E4FBA6 /* homePieView.swift */; };
+		1A6CE6422A053CDD00E4FBA6 /* tabLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6212A053CDC00E4FBA6 /* tabLeftView.swift */; };
+		1A6CE6432A053CDD00E4FBA6 /* monthCollectViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6222A053CDC00E4FBA6 /* monthCollectViewHeader.swift */; };
+		1A6CE6442A053CDD00E4FBA6 /* monthCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6232A053CDC00E4FBA6 /* monthCollectViewCell.swift */; };
+		1A6CE6452A053CDD00E4FBA6 /* homeCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6242A053CDC00E4FBA6 /* homeCollectViewCell.swift */; };
+		1A6CE6462A053CDD00E4FBA6 /* calendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6262A053CDC00E4FBA6 /* calendarCollectionViewCell.swift */; };
+		1A6CE6472A053CDD00E4FBA6 /* dataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6272A053CDC00E4FBA6 /* dataTableViewCell.swift */; };
+		1A6CE6482A053CDD00E4FBA6 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6282A053CDC00E4FBA6 /* addViewController.swift */; };
+		1A6CE6492A053CDD00E4FBA6 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE6292A053CDC00E4FBA6 /* homeViewController.swift */; };
+		1A6CE64A2A053CDD00E4FBA6 /* addCollectionViiewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE62B2A053CDC00E4FBA6 /* addCollectionViiewCell.swift */; };
+		1A6CE64B2A053CDD00E4FBA6 /* numPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE62C2A053CDC00E4FBA6 /* numPadView.swift */; };
+		1A6CE64C2A053CDD00E4FBA6 /* calendarViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE62D2A053CDC00E4FBA6 /* calendarViewcontroller.swift */; };
+		1A6CE64E2A053FC100E4FBA6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE64D2A053FC100E4FBA6 /* Date.swift */; };
+		1A6CE6502A0540EF00E4FBA6 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE64F2A0540EF00E4FBA6 /* UIScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A6CE5F22A053CAF00E4FBA6 /* Moneybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moneybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6CE5F52A053CAF00E4FBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6CE5F72A053CAF00E4FBA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A6CE5FC2A053CAF00E4FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6CE5FE2A053CB000E4FBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6CE6012A053CB000E4FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6CE6032A053CB000E4FBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6CE60B2A053CDC00E4FBA6 /* Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
+		1A6CE60C2A053CDC00E4FBA6 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1A6CE60D2A053CDC00E4FBA6 /* index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
+		1A6CE60E2A053CDC00E4FBA6 /* UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		1A6CE60F2A053CDC00E4FBA6 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1A6CE6102A053CDC00E4FBA6 /* UIVisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectView.swift; sourceTree = "<group>"; };
+		1A6CE6112A053CDC00E4FBA6 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		1A6CE6122A053CDC00E4FBA6 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		1A6CE6132A053CDC00E4FBA6 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1A6CE6142A053CDC00E4FBA6 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		1A6CE6152A053CDC00E4FBA6 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		1A6CE6162A053CDC00E4FBA6 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		1A6CE6172A053CDC00E4FBA6 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		1A6CE6182A053CDC00E4FBA6 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		1A6CE6192A053CDC00E4FBA6 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		1A6CE61A2A053CDC00E4FBA6 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		1A6CE61B2A053CDC00E4FBA6 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		1A6CE61C2A053CDC00E4FBA6 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		1A6CE61F2A053CDC00E4FBA6 /* homeDayRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeDayRowView.swift; sourceTree = "<group>"; };
+		1A6CE6202A053CDC00E4FBA6 /* homePieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePieView.swift; sourceTree = "<group>"; };
+		1A6CE6212A053CDC00E4FBA6 /* tabLeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabLeftView.swift; sourceTree = "<group>"; };
+		1A6CE6222A053CDC00E4FBA6 /* monthCollectViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monthCollectViewHeader.swift; sourceTree = "<group>"; };
+		1A6CE6232A053CDC00E4FBA6 /* monthCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monthCollectViewCell.swift; sourceTree = "<group>"; };
+		1A6CE6242A053CDC00E4FBA6 /* homeCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeCollectViewCell.swift; sourceTree = "<group>"; };
+		1A6CE6262A053CDC00E4FBA6 /* calendarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A6CE6272A053CDC00E4FBA6 /* dataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
+		1A6CE6282A053CDC00E4FBA6 /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		1A6CE6292A053CDC00E4FBA6 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		1A6CE62B2A053CDC00E4FBA6 /* addCollectionViiewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addCollectionViiewCell.swift; sourceTree = "<group>"; };
+		1A6CE62C2A053CDC00E4FBA6 /* numPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = numPadView.swift; sourceTree = "<group>"; };
+		1A6CE62D2A053CDC00E4FBA6 /* calendarViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarViewcontroller.swift; sourceTree = "<group>"; };
+		1A6CE64D2A053FC100E4FBA6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1A6CE64F2A0540EF00E4FBA6 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6CE5EF2A053CAF00E4FBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6CE5E92A053CAF00E4FBA6 = {
+			isa = PBXGroup;
+			children = (
+				1A6CE5F42A053CAF00E4FBA6 /* Moneybook */,
+				1A6CE5F32A053CAF00E4FBA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6CE5F32A053CAF00E4FBA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE5F22A053CAF00E4FBA6 /* Moneybook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6CE5F42A053CAF00E4FBA6 /* Moneybook */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE60A2A053CDC00E4FBA6 /* PPDExtension */,
+				1A6CE61D2A053CDC00E4FBA6 /* view */,
+				1A6CE5F52A053CAF00E4FBA6 /* AppDelegate.swift */,
+				1A6CE5F72A053CAF00E4FBA6 /* SceneDelegate.swift */,
+				1A6CE5FB2A053CAF00E4FBA6 /* Main.storyboard */,
+				1A6CE5FE2A053CB000E4FBA6 /* Assets.xcassets */,
+				1A6CE6002A053CB000E4FBA6 /* LaunchScreen.storyboard */,
+				1A6CE6032A053CB000E4FBA6 /* Info.plist */,
+			);
+			path = Moneybook;
+			sourceTree = "<group>";
+		};
+		1A6CE60A2A053CDC00E4FBA6 /* PPDExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE60B2A053CDC00E4FBA6 /* Autolayout.swift */,
+				1A6CE60C2A053CDC00E4FBA6 /* UIView.swift */,
+				1A6CE60D2A053CDC00E4FBA6 /* index.swift */,
+				1A6CE60E2A053CDC00E4FBA6 /* UIStackView.swift */,
+				1A6CE60F2A053CDC00E4FBA6 /* UIColor.swift */,
+				1A6CE6102A053CDC00E4FBA6 /* UIVisualEffectView.swift */,
+				1A6CE6112A053CDC00E4FBA6 /* CGSize.swift */,
+				1A6CE6122A053CDC00E4FBA6 /* UICollectionView.swift */,
+				1A6CE6132A053CDC00E4FBA6 /* String.swift */,
+				1A6CE6142A053CDC00E4FBA6 /* CGPoint.swift */,
+				1A6CE6152A053CDC00E4FBA6 /* UIButton.swift */,
+				1A6CE6162A053CDC00E4FBA6 /* UIImage.swift */,
+				1A6CE6172A053CDC00E4FBA6 /* UIImageView.swift */,
+				1A6CE6182A053CDC00E4FBA6 /* UIFont.swift */,
+				1A6CE6192A053CDC00E4FBA6 /* CGRect.swift */,
+				1A6CE61A2A053CDC00E4FBA6 /* UILabel.swift */,
+				1A6CE61B2A053CDC00E4FBA6 /* CAGradientLayer.swift */,
+				1A6CE61C2A053CDC00E4FBA6 /* Attribute.swift */,
+				1A6CE64D2A053FC100E4FBA6 /* Date.swift */,
+				1A6CE64F2A0540EF00E4FBA6 /* UIScrollView.swift */,
+			);
+			path = PPDExtension;
+			sourceTree = "<group>";
+		};
+		1A6CE61D2A053CDC00E4FBA6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE61E2A053CDC00E4FBA6 /* home */,
+				1A6CE6252A053CDC00E4FBA6 /* calendar */,
+				1A6CE62A2A053CDC00E4FBA6 /* add */,
+				1A6CE6292A053CDC00E4FBA6 /* homeViewController.swift */,
+				1A6CE62D2A053CDC00E4FBA6 /* calendarViewcontroller.swift */,
+				1A6CE6282A053CDC00E4FBA6 /* addViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1A6CE61E2A053CDC00E4FBA6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE61F2A053CDC00E4FBA6 /* homeDayRowView.swift */,
+				1A6CE6202A053CDC00E4FBA6 /* homePieView.swift */,
+				1A6CE6212A053CDC00E4FBA6 /* tabLeftView.swift */,
+				1A6CE6222A053CDC00E4FBA6 /* monthCollectViewHeader.swift */,
+				1A6CE6232A053CDC00E4FBA6 /* monthCollectViewCell.swift */,
+				1A6CE6242A053CDC00E4FBA6 /* homeCollectViewCell.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1A6CE6252A053CDC00E4FBA6 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE6262A053CDC00E4FBA6 /* calendarCollectionViewCell.swift */,
+				1A6CE6272A053CDC00E4FBA6 /* dataTableViewCell.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		1A6CE62A2A053CDC00E4FBA6 /* add */ = {
+			isa = PBXGroup;
+			children = (
+				1A6CE62B2A053CDC00E4FBA6 /* addCollectionViiewCell.swift */,
+				1A6CE62C2A053CDC00E4FBA6 /* numPadView.swift */,
+			);
+			path = add;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6CE5F12A053CAF00E4FBA6 /* Moneybook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6CE6062A053CB000E4FBA6 /* Build configuration list for PBXNativeTarget "Moneybook" */;
+			buildPhases = (
+				1A6CE5EE2A053CAF00E4FBA6 /* Sources */,
+				1A6CE5EF2A053CAF00E4FBA6 /* Frameworks */,
+				1A6CE5F02A053CAF00E4FBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moneybook;
+			productName = Moneybook;
+			productReference = 1A6CE5F22A053CAF00E4FBA6 /* Moneybook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6CE5EA2A053CAF00E4FBA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1A6CE5F12A053CAF00E4FBA6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A6CE5ED2A053CAF00E4FBA6 /* Build configuration list for PBXProject "Moneybook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6CE5E92A053CAF00E4FBA6;
+			productRefGroup = 1A6CE5F32A053CAF00E4FBA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6CE5F12A053CAF00E4FBA6 /* Moneybook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6CE5F02A053CAF00E4FBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6CE6022A053CB000E4FBA6 /* LaunchScreen.storyboard in Resources */,
+				1A6CE5FF2A053CB000E4FBA6 /* Assets.xcassets in Resources */,
+				1A6CE5FD2A053CAF00E4FBA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6CE5EE2A053CAF00E4FBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6CE6352A053CDC00E4FBA6 /* UICollectionView.swift in Sources */,
+				1A6CE63A2A053CDC00E4FBA6 /* UIImageView.swift in Sources */,
+				1A6CE6382A053CDC00E4FBA6 /* UIButton.swift in Sources */,
+				1A6CE6362A053CDC00E4FBA6 /* String.swift in Sources */,
+				1A6CE6402A053CDD00E4FBA6 /* homeDayRowView.swift in Sources */,
+				1A6CE6502A0540EF00E4FBA6 /* UIScrollView.swift in Sources */,
+				1A6CE63D2A053CDC00E4FBA6 /* UILabel.swift in Sources */,
+				1A6CE63E2A053CDC00E4FBA6 /* CAGradientLayer.swift in Sources */,
+				1A6CE62F2A053CDC00E4FBA6 /* UIView.swift in Sources */,
+				1A6CE6322A053CDC00E4FBA6 /* UIColor.swift in Sources */,
+				1A6CE6372A053CDC00E4FBA6 /* CGPoint.swift in Sources */,
+				1A6CE6452A053CDD00E4FBA6 /* homeCollectViewCell.swift in Sources */,
+				1A6CE64B2A053CDD00E4FBA6 /* numPadView.swift in Sources */,
+				1A6CE6312A053CDC00E4FBA6 /* UIStackView.swift in Sources */,
+				1A6CE6462A053CDD00E4FBA6 /* calendarCollectionViewCell.swift in Sources */,
+				1A6CE64A2A053CDD00E4FBA6 /* addCollectionViiewCell.swift in Sources */,
+				1A6CE6492A053CDD00E4FBA6 /* homeViewController.swift in Sources */,
+				1A6CE63F2A053CDC00E4FBA6 /* Attribute.swift in Sources */,
+				1A6CE5F62A053CAF00E4FBA6 /* AppDelegate.swift in Sources */,
+				1A6CE6482A053CDD00E4FBA6 /* addViewController.swift in Sources */,
+				1A6CE6472A053CDD00E4FBA6 /* dataTableViewCell.swift in Sources */,
+				1A6CE5F82A053CAF00E4FBA6 /* SceneDelegate.swift in Sources */,
+				1A6CE6422A053CDD00E4FBA6 /* tabLeftView.swift in Sources */,
+				1A6CE6332A053CDC00E4FBA6 /* UIVisualEffectView.swift in Sources */,
+				1A6CE64E2A053FC100E4FBA6 /* Date.swift in Sources */,
+				1A6CE6302A053CDC00E4FBA6 /* index.swift in Sources */,
+				1A6CE6442A053CDD00E4FBA6 /* monthCollectViewCell.swift in Sources */,
+				1A6CE6412A053CDD00E4FBA6 /* homePieView.swift in Sources */,
+				1A6CE63B2A053CDC00E4FBA6 /* UIFont.swift in Sources */,
+				1A6CE6342A053CDC00E4FBA6 /* CGSize.swift in Sources */,
+				1A6CE62E2A053CDC00E4FBA6 /* Autolayout.swift in Sources */,
+				1A6CE63C2A053CDC00E4FBA6 /* CGRect.swift in Sources */,
+				1A6CE6392A053CDC00E4FBA6 /* UIImage.swift in Sources */,
+				1A6CE64C2A053CDD00E4FBA6 /* calendarViewcontroller.swift in Sources */,
+				1A6CE6432A053CDD00E4FBA6 /* monthCollectViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A6CE5FB2A053CAF00E4FBA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6CE5FC2A053CAF00E4FBA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6CE6002A053CB000E4FBA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6CE6012A053CB000E4FBA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6CE6042A053CB000E4FBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6CE6052A053CB000E4FBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6CE6072A053CB000E4FBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837FGU99PT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moneybook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.Moneybook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6CE6082A053CB000E4FBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837FGU99PT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moneybook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.Moneybook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6CE5ED2A053CAF00E4FBA6 /* Build configuration list for PBXProject "Moneybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6CE6042A053CB000E4FBA6 /* Debug */,
+				1A6CE6052A053CB000E4FBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6CE6062A053CB000E4FBA6 /* Build configuration list for PBXNativeTarget "Moneybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6CE6072A053CB000E4FBA6 /* Debug */,
+				1A6CE6082A053CB000E4FBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6CE5EA2A053CAF00E4FBA6 /* Project object */;
+}
