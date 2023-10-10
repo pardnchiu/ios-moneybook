@@ -24,8 +24,10 @@
 
 <a href="mailto:mail@pardn.ltd">
   <img src="https://pardn.io/image/mail.svg">
-</a> <a href="https://linkedin.com/in/pardnchiu">
+</a>&nbsp<a href="https://linkedin.com/in/pardnchiu">
   <img src="https://skillicons.dev/icons?i=linkedin">
+</a>&nbsp<a href="https://pardn.io/blog">
+  <img src="https://pardn.io/image/blog.svg">
 </a>
 
 <br>
