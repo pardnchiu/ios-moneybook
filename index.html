@@ -52,9 +52,10 @@
         <!--  -->
         <link rel="stylesheet" href="https://pardnchiu.github.io/css/index.css">
         <!--  -->
-        <script src="https://pardnchiu.github.io/PDExtension-js/PDExtension.min.js" copyright="Pardn Ltd"></script>
-        <script src="https://pardnchiu.github.io/markdown-editor/js/PDMDEditor.min.js" copyright="Pardn Ltd"></script>
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net">
+        <link rel="preload" href="https://cdn.jsdelivr.net/gh/pardnchiu/PDExtension-js@1.0.1/js/PDExtension.min.js" as="script">
+        <link rel="preload" href="https://cdn.jsdelivr.net/gh/pardnchiu/markdown-editor@1.1.0/js/PDMDEditor.min.js" as="script">
+        <script src="https://cdn.jsdelivr.net/gh/pardnchiu/PDExtension-js@1.0.1/js/PDExtension.min.js" copyright="Pardn Ltd"></script>
     </head>
 
     <style>
@@ -87,12 +88,15 @@
                 <i class="fa-regular fa-envelope"></i>
             </a>
         </nav>
-        <script>
+        <script type="module">
+            import { MDViewer } from "https://cdn.jsdelivr.net/gh/pardnchiu/markdown-editor@1.1.0/js/PDMDEditor.min.js";
+
             const viewer = new MDViewer({
                 delay: 0,
                 pre: `# Moneybook iOS
 
-<a href="https://hits.sh/github.com/pardnchiu/moneybook-ios/"><img alt="Hits" src="https://hits.sh/github.com/pardnchiu/moneybook-ios.svg?label=Hit"/></a> <img src="https://img.shields.io/github/repo-size/pardnchiu/moneybook-ios?label=Size"> <img src="https://img.shields.io/github/license/pardnchiu/moneybook-ios?label=License"> <img src="https://img.shields.io/badge/Developer-邱敬幃%20Pardn%20Chiu-A374BF">
+<img src="https://img.shields.io/github/repo-size/pardnchiu/moneybook-ios?label=Size"> 
+<img src="https://img.shields.io/github/license/pardnchiu/moneybook-ios?label=License">
 
 | | | | |
 | - | - | - | - |
@@ -108,17 +112,14 @@
 - Accelerate development with  [PDExtension Swift](https://github.com/pardnchiu/PDExtension-swift).
 - Use [Font Awesome 6](https://fontawesome.com/v6/search) icons.
 
-## Contributor
+## Creator
 
-<img src="https://pardn.io/image/head-s.jpg" align="left" width="100" height="100">
+<img src="https://pardn.io/image/head-s.jpg" style="float: left; margin-right: 0.5rem; width: 128px; height: 128px;">
 
-### 邱敬幃 Pardn Chiu
+### Pardn Chiu 邱敬幃
 
-<a href="mailto:mail@pardn.ltd">
-  <img src="https://pardn.io/image/mail.svg">
-</a> <a href="https://linkedin.com/in/pardnchiu">
-  <img src="https://skillicons.dev/icons?i=linkedin">
-</a>
+[![](https://pardn.io/image/mail.svg)](mailto:mail@pardn.ltd) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
+<br><br>
 `
             });
 
